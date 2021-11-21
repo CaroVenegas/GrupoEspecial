@@ -14,12 +14,8 @@ class Inputspage extends Page {
         return $('p')
     }
 
-    setInpuntsValuebyIndex(index){
-        return this.getInputs.selectByIndex(index);
-    }
-
-    currentSelected(){
-        return $('#inputs option[selected="selected"]');
+    setInpuntsValuebyIndex(){
+        return this.getInputs.setvalueByIndex(9);
     }
 }
 export default new Inputspage();
