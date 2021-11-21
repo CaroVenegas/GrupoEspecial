@@ -14,8 +14,8 @@ class Inputspage extends Page {
         return $('p')
     }
 
-    setInpuntsValuebyIndex(){
-        return this.getInputs.setvalueByIndex(9);
+    setInpuntsValueby(){
+        return this.getInputs.setvalue(9);
     }
 }
 export default new Inputspage();

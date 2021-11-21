@@ -29,3 +29,4 @@ describe('My Inputs App', () => {
         await expect(Inputspage.getSubTitle).toHaveTextContaining('Number');
     });
 });
+
