@@ -1,4 +1,4 @@
-zimport Page from './page';
+import Page from './page';
 
 class DropdownPage extends Page {
     /**
